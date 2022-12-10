@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class LevelScript : MonoBehaviour
 {
-    public static int kacinciLevel=1;
-    public static int parcaSayisi = 7;
+    public static int actualLevel=1;
+    public static int numPieces = 7;
 
-    public void level1() { kacinciLevel = 1; parcaSayisi = 7; }
-    public void level2() { kacinciLevel = 2; parcaSayisi = 7; }
-    public void level3() { kacinciLevel = 3; parcaSayisi = 7; }
-    public void level4() { kacinciLevel = 4; parcaSayisi = 7; }
-    public void level5() { kacinciLevel = 5; parcaSayisi = 7; }
-    public void level6() { kacinciLevel = 6; parcaSayisi = 7; }
-    public void level7() { kacinciLevel = 7; parcaSayisi = 7; }
-    public void level8() { kacinciLevel = 8; parcaSayisi = 5; }
-    public void level9() { kacinciLevel = 9; parcaSayisi = 7; }
+    public void level1() { actualLevel = 1; numPieces = 7; }
+    public void level2() { actualLevel = 2; numPieces = 7; }
+    public void level3() { actualLevel = 3; numPieces = 7; }
+    public void level4() { actualLevel = 4; numPieces = 7; }
+    public void level5() { actualLevel = 5; numPieces = 7; }
+    public void level6() { actualLevel = 6; numPieces = 7; }
+    public void level7() { actualLevel = 7; numPieces = 7; }
+    public void level8() { actualLevel = 8; numPieces = 6; }
+    public void level9() { actualLevel = 9; numPieces = 6; }
     // Start is called before the first frame update
     void Start()
     {

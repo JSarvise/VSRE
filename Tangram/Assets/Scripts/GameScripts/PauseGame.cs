@@ -17,7 +17,7 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (LevelScript.parcaSayisi == 0)
+        if (LevelScript.numPieces == 0)
         {
             GameOver();
         }
@@ -35,9 +35,9 @@ public class PauseGame : MonoBehaviour
     }
     public void GameOver()
     {
-        if (LevelScript.parcaSayisi == 0)
+        if (LevelScript.numPieces == 0)
         {
-            LevelScript.parcaSayisi = 5;
+            LevelScript.numPieces = 5;
             GameOverPanel.SetActive(true);
             moved.isPaused = true;
         }

@@ -34,7 +34,7 @@ public class moved : MonoBehaviour, IDragHandler, IDropHandler
         {
             rectTransform.anchoredPosition = slotTransform.anchoredPosition;
             Destroy(this);
-            LevelScript.parcaSayisi--;
+            LevelScript.numPieces--;
         }
         else
         {

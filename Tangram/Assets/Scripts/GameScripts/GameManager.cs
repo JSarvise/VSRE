@@ -19,15 +19,15 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if      (LevelScript.kacinciLevel == 1) Instantiate(level1, levelPaneli);
-        else if (LevelScript.kacinciLevel == 2) Instantiate(level2, levelPaneli);
-        else if (LevelScript.kacinciLevel == 3) Instantiate(level3, levelPaneli);
-        else if (LevelScript.kacinciLevel == 4) Instantiate(level4, levelPaneli);
-        else if (LevelScript.kacinciLevel == 5) Instantiate(level5, levelPaneli);
-        else if (LevelScript.kacinciLevel == 6) Instantiate(level6, levelPaneli);
-        else if (LevelScript.kacinciLevel == 7) Instantiate(level7, levelPaneli);
-        else if (LevelScript.kacinciLevel == 8) Instantiate(level8, levelPaneli);
-        else if (LevelScript.kacinciLevel == 9) Instantiate(level9, levelPaneli);
+        if      (LevelScript.actualLevel == 1) Instantiate(level1, levelPaneli);
+        else if (LevelScript.actualLevel == 2) Instantiate(level2, levelPaneli);
+        else if (LevelScript.actualLevel == 3) Instantiate(level3, levelPaneli);
+        else if (LevelScript.actualLevel == 4) Instantiate(level4, levelPaneli);
+        else if (LevelScript.actualLevel == 5) Instantiate(level5, levelPaneli);
+        else if (LevelScript.actualLevel == 6) Instantiate(level6, levelPaneli);
+        else if (LevelScript.actualLevel == 7) Instantiate(level7, levelPaneli);
+        else if (LevelScript.actualLevel == 8) Instantiate(level8, levelPaneli);
+        else if (LevelScript.actualLevel == 9) Instantiate(level9, levelPaneli);
 
     }
 

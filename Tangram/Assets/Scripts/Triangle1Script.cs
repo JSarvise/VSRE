@@ -22,7 +22,8 @@ public class Triangle1Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       /* if(Input.touchCount > 0 && !locked)
+        //Si la pantalla es tactil
+        if(Input.touchCount > 0 && !locked)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
@@ -51,7 +52,8 @@ public class Triangle1Script : MonoBehaviour
                     }
                     break;
             }
-        }*/
+        }
+        //Si se usa ratón
        if(isBeingHeld == true)
         {
             Vector3 mousePos;

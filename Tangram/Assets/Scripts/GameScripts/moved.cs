@@ -8,7 +8,7 @@ public class moved : MonoBehaviour, IDragHandler, IDropHandler
     private RectTransform rectTransform;
     //public Canvas canvas;
     public RectTransform slotTransform;
-    
+
 
     GameObject slotObject;
 
@@ -21,10 +21,10 @@ public class moved : MonoBehaviour, IDragHandler, IDropHandler
         rectTransform = GetComponent<RectTransform>();
         startPos = rectTransform.anchoredPosition;
     }
-    
+
     public void OnDrag(PointerEventData eventData)
     {
-        if (isPaused == false) rectTransform.anchoredPosition += eventData.delta; 
+        if (isPaused == false) rectTransform.anchoredPosition += eventData.delta;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -44,9 +44,9 @@ public class moved : MonoBehaviour, IDragHandler, IDropHandler
 
     /* public void OnEndDrag(PointerEventData eventData)
     {
-    }*/
+    }/
 
-    /* public void OnPointerDown(PointerEventData eventData)
+    / public void OnPointerDown(PointerEventData eventData)
      {
 
      }*/
